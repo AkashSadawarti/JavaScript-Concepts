@@ -7,12 +7,20 @@ let Country = 'India'
 let IsMarried = false
 let TeamNo = 2
 
+//Bigint 
+let myNum = 13212135151554545645
+console.log(myNum) //Error
+let newMyNum = BigInt(879845456448)  //NoError
+// or we can also declare it as
+let newMyNum2 = 564648515656611n
+console.log(newMyNum,newMyNum2)
+
 //Printing Output on Console Window 
  console.log("Information using let keyword") 
 console.log(Name,Surname + '\n' + Job + '\n'+ Country)
 // Note "\n" is used to change line into next line
 
-//How to declare Number, which is prefered in  Const 
+//How to declare Number, which is prefered in Const(has specific value) 
 
 const age = 100.5
 const number = 9879871
