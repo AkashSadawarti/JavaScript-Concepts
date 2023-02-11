@@ -21,3 +21,13 @@ console.log(cars)
 
 console.log(cars.unshift('Grant Vitara'))
 console.log(cars)
+
+
+//Cloning array 
+
+let Array1 = [5,4,3,2,1]
+let Array2 = [].concat(Array1)  //1st way
+let Array3 = [...Array1] //2nd way by spread Operator
+console.log(Array1)
+console.log(Array2)
+console.log(Array3)
