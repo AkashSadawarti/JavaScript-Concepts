@@ -14,20 +14,41 @@ console.log(cars)
 
 // shift() method insert Element in first position  but slow in speed
 
-console.log(cars.shift())
-console.log(cars)
+// console.log(cars.shift())
+// console.log(cars)
 
 // unshift() method removes Element in first position but slow in speed
 
-console.log(cars.unshift('Grant Vitara'))
-console.log(cars)
+// console.log(cars.unshift('Grant Vitara'))
+// console.log(cars)
 
 
 //Cloning array 
 
-let Array1 = [5,4,3,2,1]
-let Array2 = [].concat(Array1)  //1st way
-let Array3 = [...Array1] //2nd way by spread Operator
-console.log(Array1)
-console.log(Array2)
-console.log(Array3)
+// let Array1 = [5,4,3,2,1]
+// let Array2 = [].concat(Array1)  //1st way
+// let Array3 = [...Array1] //2nd way by spread Operator
+// let Array4 = Array1.splice(0).concat([8,9]) // 3rd way and concat
+// console.log(Array1)
+// console.log(Array2)
+// console.log(Array3)
+// console.log(Array4)
+
+//Forloop in Array
+console.log(cars.length) //gives elements num
+console.log(cars[cars.length-1]) //gives last elements name
+
+// for(let i=0;i<cars.length;i++){
+//     console.log(cars[i])          //gives names
+// }
+
+//while loop in Array
+let i = 0;
+while(i <= cars.length-1){
+    console.log(cars[i])
+    i++;
+}
+
+i = 1;
+console.log(i)
+console.log(a)
