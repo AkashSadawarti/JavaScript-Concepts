@@ -67,3 +67,7 @@ do{
 //  console.log(var1)
 //  console.log(var2)
 //  console.log(var3)
+
+// adding items in array with existing array
+let jeeps = [...cars,"jeep","minivan"]
+console.log(jeeps);
