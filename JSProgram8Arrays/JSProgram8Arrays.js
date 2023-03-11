@@ -49,14 +49,21 @@ console.log(cars[cars.length-1]) //gives last elements name
 //     i++;
 // }
 
+//do-while loop in array
+let i=0;
+do{
+    console.log(cars[i])
+    i++
+}while(i<=cars.length-1)
+
 // i = 1;
 // console.log(i)
 // console.log(a)
 
 //Array destructuring
- let Arr = ['value1','value2','value3']
- let [var1,var2,var3] = Arr // work like variable 
- console.log(Arr)
- console.log(var1)
- console.log(var2)
- console.log(var3)
+//  let Arr = ['value1','value2','value3']
+//  let [var1,var2,var3] = Arr // work like variable 
+//  console.log(Arr)
+//  console.log(var1)
+//  console.log(var2)
+//  console.log(var3)
