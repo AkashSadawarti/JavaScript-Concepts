@@ -71,3 +71,10 @@ do{
 // adding items in array with existing array
 let jeeps = [...cars,"jeep","minivan"]
 console.log(jeeps);
+
+//Arrays with spread operator
+let newArray = [..."13254553"] //o/p [1,3,2,5,4,5,5,3]
+console.log(newArray)
+let array23 = [...'abcde']
+let resArray = [...newArray,...array23]
+console.log(resArray);
