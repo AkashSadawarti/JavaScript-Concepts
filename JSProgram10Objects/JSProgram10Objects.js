@@ -60,7 +60,9 @@ console.log(Obj6);
 
 let Obj7 = {
   band : "Micheal Jackson",
-  song : "Waving flag"
+  song : "Waving flag",
+  song2 : "Waka Waka",
+  year : 1975
 }
 //value can be accessed by simple creating objects 
 let b1 = Obj7.band;
@@ -68,6 +70,10 @@ let s1 = Obj7.song;
 console.log(b1,s1);
 
 //destructuring Objects
-let {band ,song } = Obj7; //write only keys in {}
-console.log(band);
-console.log(song);
+// let {band ,song , song2,year } = Obj7; //write only keys in {}
+// console.log(band);
+// console.log(song);
+// console.log(band,song,song2,year)
+
+let {band ,song , ...restprop } = Obj7; // use of spread operator for remaining properties
+console.log(restprop)
