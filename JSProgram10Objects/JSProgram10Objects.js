@@ -35,11 +35,11 @@ console.log(person);
 let obj2 = {
   key1: "value1",
   key2: "value2",
-  key1: "VAlue3", //same key would always prefer for new value {key1 : Value3, key2: value1}
+  key1: "VAlue3", //same key would always prefer for new value i.e overide key {key1 : Value3, key2: value1}
 };
 console.log(obj2);
 
-//Objects with Spread operators
+//Objects concat with Spread operators
 let obj3 = {
   key1: "value1",
   key2: "value2"
@@ -50,5 +50,10 @@ let obj4 = {
   key4: "value2"
 };
 
-let newObj = {...obj3,...obj4}
+let newObj = {...obj3,...obj4, key46 : "value42"}
 console.log(newObj)
+
+let Obj5 = {...["value1","value2"]}
+let Obj6 = {..."56484"}
+console.log(Obj5);
+console.log(Obj6);
