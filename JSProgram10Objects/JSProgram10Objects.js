@@ -19,7 +19,7 @@ console.log(person["Name"])
 console.log(person.age)
 console.log(person.hobbies)
 
- for(let i=0;i<person.hobbies.length;i++){
+ for(let i=0;i<person.hobbies.length-1;i++){
     console.log(person.hobbies[person.hobbies.length-2])
  }
 
