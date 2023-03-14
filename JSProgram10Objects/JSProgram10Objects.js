@@ -31,3 +31,10 @@ console.log(person)
 let key = "email"  //it becomes key with field name
 person[key] = "akash@gmail.com" //value
 console.log(person)
+
+let obj2 = {
+  key1 : "value1",
+  key2 : "value2",
+  key1 : "VAlue3"       //same key would always prefer for new value {key1 : Value3, key2: value1}
+}
+console.log(obj2);
