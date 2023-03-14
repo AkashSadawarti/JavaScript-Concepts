@@ -77,3 +77,21 @@ console.log(b1,s1);
 
 let {band ,song , ...restprop } = Obj7; // use of spread operator for remaining properties
 console.log(restprop)
+
+//Objects with muliple data
+let Obj8 = [
+  {
+    userid : 1,
+    username : 'Akash'
+  },
+  {
+    userid : 2,
+    username : 'Alex'
+  },
+  {
+    userid : 3,
+    username : 'Adi'
+  }
+]
+
+console.log(Obj8);
