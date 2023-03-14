@@ -41,3 +41,33 @@ let obj ={}
 obj[key1] = value1
 obj[key2] = value2
 console.log(obj)
+
+//Objects with muliple data
+let Obj8 = [
+    {
+      userid : 1,
+      username : 'Akash'
+    },
+    {
+      userid : 2,
+      username : 'Alex'
+    },
+    {
+      userid : 3,
+      username : 'Adi'
+    }
+  ]
+  
+  console.log(Obj8);
+//   for (const item of Obj8) {
+//     console.log(item);       //accessing all data
+//     console.log(item.userid); // accessing the userid only
+//     console.log(item.username); // accessing the username only
+//   }
+
+// with while loop
+let i =  0 ;
+while( i < Obj8.length){
+console.log(Obj8[i]);
+i++
+}
