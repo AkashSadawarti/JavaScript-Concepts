@@ -57,3 +57,17 @@ let Obj5 = {...["value1","value2"]}
 let Obj6 = {..."56484"}
 console.log(Obj5);
 console.log(Obj6);
+
+let Obj7 = {
+  band : "Micheal Jackson",
+  song : "Waving flag"
+}
+//value can be accessed by simple creating objects 
+let b1 = Obj7.band;
+let s1 = Obj7.song;
+console.log(b1,s1);
+
+//destructuring Objects
+let {band ,song } = Obj7; //write only keys in {}
+console.log(band);
+console.log(song);
