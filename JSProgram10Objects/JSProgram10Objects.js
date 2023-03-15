@@ -103,5 +103,5 @@ console.log(user2)
 // const [user1,user2,...rest] = Obj8; with spread operator
 // console.log(rest)
   
-const [{userid : idofFirstobject}, , {username: usernameof3rdobject}] = Obj8  //space is for 2nd object in array
-console.log(idofFirstobject,usernameof3rdobject);
+const [{userid : idofFirstobject,username}, , {username: usernameof3rdobject}] = Obj8  //space is for 2nd object in array which is neede to be given 
+console.log(idofFirstobject,username,usernameof3rdobject);
