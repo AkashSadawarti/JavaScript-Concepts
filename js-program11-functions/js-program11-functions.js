@@ -62,3 +62,24 @@ let user = function(){
     console.log('Hello User')
 }
 console.log(user());
+
+//Arrow functions
+// 3rd way to declare a function
+
+let calculate =  () => {   //by putting => symbol after brackets no need to write function keyword
+    console.log(10-2)
+}
+calculate()
+
+let multiply =  (num1,num2) => {  //arrow function with arguments
+    console.log(num1 * num2);
+}
+multiply(5,5)
+
+// return function in single line
+
+let isOdd = num3 => (num3 % 2 != 0) ;
+console.log(isOdd(4))  //false
+
+let divide = (num4,num5) => (num4 % num5 === 0) ? "success" : "failed";
+console.log(divide(8,2));
