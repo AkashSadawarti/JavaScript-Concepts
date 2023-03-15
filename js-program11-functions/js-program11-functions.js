@@ -47,8 +47,9 @@ console.log(firstChar("Char"));
 function Target(Arr, targ) {
   for (let i = 0; i <= Arr.length; i++) {
     if (Arr[i] === targ) {
-      return console.log( `index of targ ${targ} = ${i} ` );
+      return console.log(`index of targ ${targ} = ${i} `);
     }
   }
+  return console.log("Target Not Found"); 
 }
-Target([0,1,3,4,6,8,5] , 4)
+Target([0, 1, 3, 4, 6, 8, 5], 15);
