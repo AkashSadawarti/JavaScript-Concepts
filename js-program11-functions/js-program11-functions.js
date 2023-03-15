@@ -83,3 +83,4 @@ console.log(isOdd(4))  //false
 
 let divide = (num4,num5) => (num4 % num5 === 0) ? "success" : "failed";
 console.log(divide(8,2));
+
