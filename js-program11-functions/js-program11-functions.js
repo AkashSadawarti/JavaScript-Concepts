@@ -25,19 +25,30 @@ console.log(callAnotherFunction());
 //WAP for even odd in functions return true/false
 
 function evenOdd(number) {
-  if (number % 2 === 0) {  //using if else condition
+  if (number % 2 === 0) {
+    //using if else condition
     return true;
   }
   return false;
-// return number % 2 === 0;  //using sing expression
-// return (number % 2 === 0) ? true : false ; //using ternary operator
-
+  // return number % 2 === 0;  //using sing expression
+  // return (number % 2 === 0) ? true : false ; //using ternary operator
 }
 console.log(evenOdd(7));
 
 //WAP print first character of string
-function firstChar(str){
-    let res = str[0];
-    return res;
+function firstChar(str) {
+  let res = str[0];
+  return res;
 }
 console.log(firstChar("Char"));
+
+// WAP function input[Array ,target], output index of target
+
+function Target(Arr, targ) {
+  for (let i = 0; i <= Arr.length; i++) {
+    if (Arr[i] === targ) {
+      return console.log( `index of targ ${targ} = ${i} ` );
+    }
+  }
+}
+Target([0,1,3,4,6,8,5] , 4)
