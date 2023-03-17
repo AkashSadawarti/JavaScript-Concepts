@@ -3,7 +3,7 @@
 // let ex
 
 // function declaration 
-greet();  //o/p = Hello world , here it will show o/p this called hoisting
+greet();  //o/p = Hello world , here it will show o/p in function declaration this called hoisting 
       
 function  greet(){
     console.log('Hello World!');
@@ -17,5 +17,11 @@ function  greet(){
 //    console.log("good Morning");
 // }
 
-greet3(); //TypeError: undefined is not a function
+// greet3(); //TypeError: undefined is not a function
 let greet3 = () => console.log("good Evening");
+
+
+let num = "1";
+let num2 = "2";
+console.log(typeof(num,num2))
+console.log(typeof(parseInt(num),parseInt(num2)))
