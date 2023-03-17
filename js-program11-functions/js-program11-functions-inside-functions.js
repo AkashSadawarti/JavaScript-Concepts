@@ -27,8 +27,9 @@ movie()
 
 //lexical scope
 
+let myVar = "value8";
 function myApp(){
-    let myVar = "value8";
+    // let myVar = "value8";
 
     function insideFunc(){
         // let myVar = "value67";
@@ -38,3 +39,4 @@ function myApp(){
 }
 myApp() //1) o/p = inside function : value67
         //2) comment myvar from local scope o/p = inside function : value8
+        //3) comment myvar from myapp same o/p will resist again checking env
