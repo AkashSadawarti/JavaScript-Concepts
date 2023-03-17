@@ -13,3 +13,18 @@
 }
 // console.log(name + " " + lastName)  //o/p error because you cannot print o/p outside block 
 console.log(car + " " + carSpeed)  //o/p  because you print o/p outside block by var declaration 
+
+// scopes in function and loops
+var topic2 = 'AngularJs'
+function info(){
+    if(true){
+        let topic = 'Javascript'
+        // var topic2 = 'AngularJs'
+        console.log(topic);
+        console.log(topic2);
+    }
+    // console.log(topic);  // cause eror because topic is not accessible : declaration is let/const
+    console.log(topic2); // 4no error because var is used
+
+}
+info()
