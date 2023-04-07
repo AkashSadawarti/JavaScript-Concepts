@@ -31,3 +31,17 @@
 //   }
 //   console.log(string3);
   
+//   // triangle right
+//   let row4 = 5
+//   let string4 = ""
+//   for(let i=1; i<=row4; i++){
+//       for(let j=0 ;j<row4-i; j++){
+//         string4 += " "
+//       }
+//       for(let k=0; k<i;k++){
+//          string4 += "*"
+//       }
+//       string4 += "\n"
+//     }
+//     console.log(string4);
+
