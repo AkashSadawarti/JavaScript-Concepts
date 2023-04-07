@@ -20,3 +20,14 @@
 //   }
 //   console.log(string2);
 
+// //90deg triangle
+// let row3 = 6
+// let string3 = ""
+// for(let i=row3;i>0;i--){
+//     for(let j=row3;j>i;j--){
+//       string3 += ' # '
+//     }
+//     string3 += "\n"
+//   }
+//   console.log(string3);
+  
