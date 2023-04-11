@@ -1,1 +1,2 @@
-// sum of Elements in Array
+// sum of Elements in Array without duplicates
+
