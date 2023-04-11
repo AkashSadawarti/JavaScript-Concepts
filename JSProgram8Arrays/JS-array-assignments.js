@@ -1,4 +1,4 @@
-// sum of Elements in Array without duplicates
+// sum of Elements in Array exclude duplicates
 
 
 let uniqueElements = []
