@@ -36,3 +36,5 @@ for(let item of map.values()){
 map.delete("a")   // delete a row/key-value pair
 console.log(map);
 
+map.clear()
+console.log(map);
