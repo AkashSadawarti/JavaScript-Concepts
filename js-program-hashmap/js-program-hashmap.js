@@ -25,3 +25,9 @@ for(let item of map){
 for(let item of map){
     console.log(item[1]);  //0 will give keys only and 1 will give values
 }  
+
+// 2nd Way
+for(let item of map.values()){
+    console.log(item);  //keys() will give keys only and calues() will give values
+}  
+
