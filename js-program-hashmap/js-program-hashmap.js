@@ -15,3 +15,7 @@ console.log(map.size);  //3
 console.log(map.get(1)); //100
 console.log(map.get("a")); //1000
 
+//FOR LOOP
+for(let item of map){
+    console.log(item);
+}
