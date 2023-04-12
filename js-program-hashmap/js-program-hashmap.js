@@ -18,4 +18,10 @@ console.log(map.get("a")); //1000
 //FOR LOOP
 for(let item of map){
     console.log(item);
-}
+}  //gives complete data
+
+// print only keys or values
+// 1st way 
+for(let item of map){
+    console.log(item[1]);  //0 will give keys only and 1 will give values
+}  
