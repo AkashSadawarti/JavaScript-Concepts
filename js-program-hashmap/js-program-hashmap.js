@@ -31,3 +31,8 @@ for(let item of map.values()){
     console.log(item);  //keys() will give keys only and calues() will give values
 }  
 
+// note : normal loop is allowed
+
+map.delete("a")   // delete a row/key-value pair
+console.log(map);
+
