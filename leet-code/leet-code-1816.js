@@ -16,3 +16,15 @@
 // The words in s are ["Hello", "how" "are", "you", "Contestant"].
 // The first 4 words are ["Hello", "how", "are", "you"].
 // Hence, you should return "Hello how are you".
+
+s = "Hello how are you Contestant", k = 4
+
+    newStr = s.split(' ')
+    console.log(newStr)
+    let newArray = []
+for(let i= 0;i<k;i++){
+     newArray.push(newStr[i])
+}
+console.log(newArray);
+let res = newArray.join(" ")
+console.log(`"${res}"`)
