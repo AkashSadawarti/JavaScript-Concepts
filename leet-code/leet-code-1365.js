@@ -8,4 +8,16 @@
 // For nums[3]=2 there exist one smaller number than it (1). 
 // For nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).
 
+let nums = [8, 1, 2, 2, 3]
+let numsCount = []
+for (let i = 0; i < nums.length; i++) {
+    let count = 0
+    for (let j = 0; j < nums.length; j++) {
+        if (nums[i] > nums[j]) {
+            count++
+        }
+    }
+    numsCount.push(count)
+}
+console.log(numsCount);
 
