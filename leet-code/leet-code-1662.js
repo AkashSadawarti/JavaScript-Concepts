@@ -13,3 +13,14 @@
 // word1 represents string "ab" + "c" -> "abc"
 // word2 represents string "a" + "bc" -> "abc"
 // The strings are the same, so return true.
+
+let word1 = ["ab", "c"], word2 = ["a", "bc"]
+   
+let string1 =  word1.join(''); 
+console.log(string1);
+let string2 =  word2.join('');
+console.log(string2);
+if(string1 === string2){
+  return true;
+}
+return false;
