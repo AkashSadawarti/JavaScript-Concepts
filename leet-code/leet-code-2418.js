@@ -8,3 +8,22 @@
 // Input: names = ["Mary","John","Emma"], heights = [180,165,170]
 // Output: ["Mary","Emma","John"]
 // Explanation: Mary is the tallest, followed by Emma and John.
+let temp1
+let temp2
+let names = ["Mary","John","Emma"], heights = [180,165,170]
+ for(let i=0;i< heights.length;i++){
+    for(let j=0;j< heights.length;j++){
+        if(heights[i] > heights[j]){
+             temp = heights[i]
+             heights[i] = heights[j];
+             heights[j] = temp;
+
+             temp2 = names[i]
+             names[i] = names[j];
+             names[j] = temp2;
+        }
+    }
+
+}
+console.log(names);
+console.log(heights);
