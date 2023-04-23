@@ -23,3 +23,13 @@
 // X++: X is incremented by 1, X = -1 + 1 =  0.
 // X++: X is incremented by 1, X =  0 + 1 =  1.
 
+let sum = 0;
+for(let i = 0 ; i< operations.length ;i++){
+    if(operations[i] === "--X" || operations[i] === "X--"){
+       sum= sum-1
+    }
+    else if(operations[i] === "++X" || operations[i] === "X++"){
+         sum = sum+1
+    }
+}
+return sum;
