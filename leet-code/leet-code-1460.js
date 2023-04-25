@@ -19,4 +19,10 @@
 // 3- Reverse subarray [4,3], arr becomes [1,2,3,4]
 // There are multiple ways to convert arr to target, this is not the only way to do so.
 
+let target = [1,2,3,4], arr = [2,1,3]
+let res1 = target.sort()
+let res2 = arr.sort()
+console.log(res1.toString() === res2.toString())
+
+
 
