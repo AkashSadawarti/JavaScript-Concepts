@@ -11,5 +11,19 @@
 // - nums[2] == nums[4], and 2 * 4 == 8, which is divisible by 2.
 // - nums[3] == nums[4], and 3 * 4 == 12, which is divisible by 2.
 
+let nums = [3,1,2,2,2,1,3], k = 2
+let product ;
+let count = 0
+for(let i=0;i<nums.length;i++){
+    for(let j=i+1; j<nums.length;j++){
+        if(nums[i] === nums[j]){
+            product = i * j
+            if(product%2 === 0){
+              count++;
+            }
+        }
+    }
+}
+console.log(count)
 
 
