@@ -23,3 +23,16 @@
 // gen.next().value; // 3
 
 
+//Fibonacci
+let k = 5
+let current = 1
+let prev = 0
+let nextTerm ;
+let fib = []
+for(let i=1;i<= k ;i++){
+    nextTerm = current + prev;
+    current = prev;
+    prev = nextTerm;
+    fib.push(current)
+}
+console.log(fib);
