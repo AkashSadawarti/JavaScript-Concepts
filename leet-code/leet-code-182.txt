@@ -27,4 +27,9 @@ Explanation: a@b.com is repeated two times.
 # Write your MySQL query statement below
 
 
+Solution:
+select email as Email 
+from Person
+group by email
+having count(email) > 1
 
