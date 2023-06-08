@@ -1,0 +1,13 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* utility class : they are already defined classes according to requirement. one utility class provide a single utility*/
+.text-color{
+    color: red;
+}
+.heading-color{
+    color:teal;
+}
+.bg-color{
+    background-color: thistle;
+}
