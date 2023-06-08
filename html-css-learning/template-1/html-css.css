@@ -1,0 +1,13 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main-heading{
+    background-color: #cdcdcd;
+}
+.main-section{
+    background-color: aliceblue;
+    color: #000;
+}
+h4{
+    color : yellowgreen;
+}
