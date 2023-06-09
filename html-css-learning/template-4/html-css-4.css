@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* note : Universal selector are used for applying property universally it is denoted by "*" */
+/* *{
+    color: blue;
+} */
+
+header{
+    background-color: aliceblue;
+}
+section.my-articles{
+    background-color: azure;
+}
+
+/* all paragraph tag would be changed according to property. */
+ /* p{
+    color : red
+} */
+
+/* here paragraph tag in header are only changed according to property of css it is also called descendant seletor or combinator */
+header p{
+    color :red
+}
+
