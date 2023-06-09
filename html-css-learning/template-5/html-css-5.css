@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* this propert excess tag which is form  */
 input[type = text]{
     color :red;
     background-color: aqua;
@@ -9,4 +10,22 @@ input[type = text]{
 
 input[type = password]{
     background-color: pink;
+}
+
+/* note : sometimes link are way bigger than normal so here in this property a tag href which has/consist "google" name then that link would be  red  * means all*/ 
+a[ href *= "facebook"]{
+    color: red;
+}
+/* 
+in same manner if we need to specify links which "[starts with first words]" will change the behaviour eg in links starrts with "http";  "carat : ^ symbol is imp" */
+
+a[ href ^= "https"]{
+    color : green;
+}
+
+/* 
+in same manner if we need to specify links which "[end with words]" will change the behaviour eg in links starrts with "http";  "dollar : $ symbol is imp" */
+
+a[href $= ".com"]{
+    color: rebeccapurple;
 }
