@@ -24,3 +24,21 @@ header p{
     color :red
 }
 
+header ul li a{
+    color : yellowgreen
+}
+ 
+/* cahnnging only heading of article section */
+section.my-articles h2{
+    color :violet;
+}
+/* 
+Adjacent Selector is which we want to select is in certain format */
+ 
+h3+p{
+    color :rosybrown;
+}
+
+ul+p{
+    color : gold
+}
