@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type = text]{
+    color :red;
+    background-color: aqua;
+}
+
+input[type = password]{
+    background-color: pink;
+}
