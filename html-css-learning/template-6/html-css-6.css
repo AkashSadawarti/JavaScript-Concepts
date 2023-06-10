@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* specificity it is preference given over tag 
+   inline style attribute > id selector >  class selector > h1 element selector*/
+   /* but style attribute is not good practise */
+h1{
+    color : blue
+}
+
+.head{
+    color:red
+}
+
+ /* note : though specificity of class is same but the .head2 is written  after .head that why the color changed according to head2 */
+.head2 {
+    color :teal
+}
+
+/* #id{
+    color :green
+} */
