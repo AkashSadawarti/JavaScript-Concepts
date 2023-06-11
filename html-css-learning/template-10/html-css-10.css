@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1 , .box2{
+    border: 1px solid;
+    padding: 10px;
+}
+
+.box1{
+    margin-bottom: 40px;
+}
+
+.box2{
+    margin-bottom: 50px;
+}
+
+/* note: margin collapsing is the property, for eg in above case box 1 and box2 has diff margin it doesnt means it add with each other NO rather it will select margin which is bigger  */
