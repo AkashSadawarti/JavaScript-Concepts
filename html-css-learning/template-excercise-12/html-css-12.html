@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./html-css-12.css" defer>
+   <title>HTML AND CSS Margin Collapsing</title>
+</head>
+
+<body>
+   <!-- note : HOME and END key in keyboard points cursor to start and end of the line -->
+   <!-- note : PgUp and PgDn key in keyboard move page to up and down. -->
+
+   <div class="container">
+     
+         <nav class="nav-menu">
+            <ul>
+               <li>HOME</li>
+               <li>ABOUT</li>
+               <li>CONTACT US</li>
+            </ul>
+            <!-- <a href=""></a>
+         <a href=""></a>
+         <a href=""></a> -->
+         </nav>
+      
+      <main>
+         <section>
+            <h3>Welcome to this lovely website</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit dignissimos, ut quaerat tempore
+               necessitatibus eaque! Illo, maiores laboriosam? Nulla quibusdam hic explicabo temporibus? Nesciunt
+               molestias sequi, nulla maxime dicta autem, recusandae numquam vel et iure temporibus at esse dignissimos
+               explicabo consectetur, blanditiis nam reiciendis. Error ipsam architecto nostrum dolorum saepe quos odit
+               deserunt labore debitis, dolorem, sequi praesentium. Voluptates unde nesciunt voluptatem earum aliquam
+               molestias assumenda enim qui, error ipsam laborum vero ratione eius fugiat quaerat iure illo incidunt
+               quia esse adipisci iusto omnis veniam cumque? Error porro ratione incidunt quod nisi. Ex autem maxime
+               dolorum quo quis dolor eum?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia esse porro possimus, aut
+               accusantium neque qui sapiente soluta vel odit! Nihil at corrupti ullam reprehenderit dolores expedita
+               possimus accusamus totam, corporis odit! Quidem reprehenderit aspernatur repellat minus dolores nulla
+               obcaecati ratione delectus, dolorem amet iure laudantium dignissimos deleniti commodi voluptas in
+               repellendus accusamus magnam qui, exercitationem vero voluptatum. Iste, voluptates. Exercitationem eaque
+               eligendi aperiam cupiditate accusantium cumque aut esse aliquid corrupti. Obcaecati quas quo, esse
+               commodi tempora numquam, ipsum id cupiditate cum nulla quia pariatur iure. Culpa ullam nulla, ratione
+               itaque earum, eaque porro assumenda atque optio deserunt velit?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, consequatur libero alias, quidem nobis
+               adipisci iure tempora totam corrupti maiores sunt quibusdam temporibus accusantium similique ut, voluptas
+               officia ipsum aperiam ipsam cupiditate dolorum aut? Iure corrupti quaerat molestias. Provident asperiores
+               nesciunt tempora exercitationem laboriosam qui, porro dolorem repudiandae alias est dicta inventore
+               temporibus aperiam blanditiis eum assumenda. Repudiandae deserunt aliquam esse libero officiis quibusdam
+               dolorum ut excepturi eveniet ipsa, fugiat nam. Sint, ducimus quos. Voluptatum, possimus. Ipsam aspernatur
+               iure accusantium aut tempore totam magnam quos quo quidem, facere, placeat cupiditate odit, reprehenderit
+               nulla repellendus ullam eos enim repudiandae laudantium. Officiis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda incidunt atque laudantium eos minus
+               ullam quidem inventore nesciunt nemo numquam aut quasi reiciendis, asperiores repudiandae ipsa impedit
+               dolorum minima libero. Ducimus, labore dolor ad quis animi eius similique veritatis dolore aperiam eos
+               sequi amet consectetur totam alias aliquid, explicabo repellendus perferendis ullam quae quas. Ipsum
+               dolores quia est veniam cum. Dolor nisi dolore nobis nihil officia in eius fuga, vel porro eum autem
+               nostrum consequuntur pariatur, reprehenderit inventore at omnis veniam totam provident tempora
+               consectetur voluptas aperiam culpa? Officiis, enim! Tempora quam esse deserunt molestias velit, sint fuga
+               voluptate! Quas?</p>
+         </section>
+         <section>
+            <h3>About us</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit dignissimos, ut quaerat tempore
+               necessitatibus eaque! Illo, maiores laboriosam? Nulla quibusdam hic explicabo temporibus? Nesciunt
+               molestias sequi, nulla maxime dicta autem, recusandae numquam vel et iure temporibus at esse dignissimos
+               explicabo consectetur, blanditiis nam reiciendis. Error ipsam architecto nostrum dolorum saepe quos odit
+               deserunt labore debitis, dolorem, sequi praesentium. Voluptates unde nesciunt voluptatem earum aliquam
+               molestias assumenda enim qui, error ipsam laborum vero ratione eius fugiat quaerat iure illo incidunt
+               quia esse adipisci iusto omnis veniam cumque? Error porro ratione incidunt quod nisi. Ex autem maxime
+               dolorum quo quis dolor eum?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia esse porro possimus, aut
+               accusantium neque qui sapiente soluta vel odit! Nihil at corrupti ullam reprehenderit dolores expedita
+               possimus accusamus totam, corporis odit! Quidem reprehenderit aspernatur repellat minus dolores nulla
+               obcaecati ratione delectus, dolorem amet iure laudantium dignissimos deleniti commodi voluptas in
+               repellendus accusamus magnam qui, exercitationem vero voluptatum. Iste, voluptates. Exercitationem eaque
+               eligendi aperiam cupiditate accusantium cumque aut esse aliquid corrupti. Obcaecati quas quo, esse
+               commodi tempora numquam, ipsum id cupiditate cum nulla quia pariatur iure. Culpa ullam nulla, ratione
+               itaque earum, eaque porro assumenda atque optio deserunt velit?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, consequatur libero alias, quidem nobis
+               adipisci iure tempora totam corrupti maiores sunt quibusdam temporibus accusantium similique ut, voluptas
+               officia ipsum aperiam ipsam cupiditate dolorum aut? Iure corrupti quaerat molestias. Provident asperiores
+               nesciunt tempora exercitationem laboriosam qui, porro dolorem repudiandae alias est dicta inventore
+               temporibus aperiam blanditiis eum assumenda. Repudiandae deserunt aliquam esse libero officiis quibusdam
+               dolorum ut excepturi eveniet ipsa, fugiat nam. Sint, ducimus quos. Voluptatum, possimus. Ipsam aspernatur
+               iure accusantium aut tempore totam magnam quos quo quidem, facere, placeat cupiditate odit, reprehenderit
+               nulla repellendus ullam eos enim repudiandae laudantium. Officiis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda incidunt atque laudantium eos minus
+               ullam quidem inventore nesciunt nemo numquam aut quasi reiciendis, asperiores repudiandae ipsa impedit
+               dolorum minima libero. Ducimus, labore dolor ad quis animi eius similique veritatis dolore aperiam eos
+               sequi amet consectetur totam alias aliquid, explicabo repellendus perferendis ullam quae quas. Ipsum
+               dolores quia est veniam cum. Dolor nisi dolore nobis nihil officia in eius fuga, vel porro eum autem
+               nostrum consequuntur pariatur, reprehenderit inventore at omnis veniam totam provident tempora
+               consectetur voluptas aperiam culpa? Officiis, enim! Tempora quam esse deserunt molestias velit, sint fuga
+               voluptate! Quas?</p>
+         </section>
+         <section>
+            <h3>Contact Us</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit dignissimos, ut quaerat tempore
+               necessitatibus eaque! Illo, maiores laboriosam? Nulla quibusdam hic explicabo temporibus? Nesciunt
+               molestias sequi, nulla maxime dicta autem, recusandae numquam vel et iure temporibus at esse dignissimos
+               explicabo consectetur, blanditiis nam reiciendis. Error ipsam architecto nostrum dolorum saepe quos odit
+               deserunt labore debitis, dolorem, sequi praesentium. Voluptates unde nesciunt voluptatem earum aliquam
+               molestias assumenda enim qui, error ipsam laborum vero ratione eius fugiat quaerat iure illo incidunt
+               quia esse adipisci iusto omnis veniam cumque? Error porro ratione incidunt quod nisi. Ex autem maxime
+               dolorum quo quis dolor eum?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia esse porro possimus, aut
+               accusantium neque qui sapiente soluta vel odit! Nihil at corrupti ullam reprehenderit dolores expedita
+               possimus accusamus totam, corporis odit! Quidem reprehenderit aspernatur repellat minus dolores nulla
+               obcaecati ratione delectus, dolorem amet iure laudantium dignissimos deleniti commodi voluptas in
+               repellendus accusamus magnam qui, exercitationem vero voluptatum. Iste, voluptates. Exercitationem eaque
+               eligendi aperiam cupiditate accusantium cumque aut esse aliquid corrupti. Obcaecati quas quo, esse
+               commodi tempora numquam, ipsum id cupiditate cum nulla quia pariatur iure. Culpa ullam nulla, ratione
+               itaque earum, eaque porro assumenda atque optio deserunt velit?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, consequatur libero alias, quidem nobis
+               adipisci iure tempora totam corrupti maiores sunt quibusdam temporibus accusantium similique ut, voluptas
+               officia ipsum aperiam ipsam cupiditate dolorum aut? Iure corrupti quaerat molestias. Provident asperiores
+               nesciunt tempora exercitationem laboriosam qui, porro dolorem repudiandae alias est dicta inventore
+               temporibus aperiam blanditiis eum assumenda. Repudiandae deserunt aliquam esse libero officiis quibusdam
+               dolorum ut excepturi eveniet ipsa, fugiat nam. Sint, ducimus quos. Voluptatum, possimus. Ipsam aspernatur
+               iure accusantium aut tempore totam magnam quos quo quidem, facere, placeat cupiditate odit, reprehenderit
+               nulla repellendus ullam eos enim repudiandae laudantium. Officiis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda incidunt atque laudantium eos minus
+               ullam quidem inventore nesciunt nemo numquam aut quasi reiciendis, asperiores repudiandae ipsa impedit
+               dolorum minima libero. Ducimus, labore dolor ad quis animi eius similique veritatis dolore aperiam eos
+               sequi amet consectetur totam alias aliquid, explicabo repellendus perferendis ullam quae quas. Ipsum
+               dolores quia est veniam cum. Dolor nisi dolore nobis nihil officia in eius fuga, vel porro eum autem
+               nostrum consequuntur pariatur, reprehenderit inventore at omnis veniam totam provident tempora
+               consectetur voluptas aperiam culpa? Officiis, enim! Tempora quam esse deserunt molestias velit, sint fuga
+               voluptate! Quas?</p>
+         </section>
+      </main>
+   </div>
+
+</body>
+
+</html>
