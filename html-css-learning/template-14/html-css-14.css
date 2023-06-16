@@ -1,0 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* the above setting is done to reset browser css peoperties. because every browser has its own css settings for exmple the edge browser has 8px of by default margin  */
