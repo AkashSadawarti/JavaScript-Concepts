@@ -1,0 +1,17 @@
+
+/* css inheritance property which inherit the properties from body  tag which is universal to all page */
+
+body{
+    color : red
+}
+
+.container2{
+    color:blue;
+}
+
+.container1{
+    color:green;
+}       
+
+/* priority chart */
+ /* inline style attribute > #id > .class > Element tag  */
