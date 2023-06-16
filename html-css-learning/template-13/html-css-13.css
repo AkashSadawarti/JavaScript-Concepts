@@ -1,0 +1,27 @@
+hr{
+    width : 500px;
+    margin: 0;
+    border: 1px black dotted;
+}
+
+/* simple box model where width increases with additional properties like padding and border */
+.box1{
+    border: 10px solid red;
+    background-color: aquamarine;
+    width: 500px;
+    padding : 30px;
+}
+
+/* box 2 with box model properties */
+.box2{
+    border:10px solid red;
+    background-color: aliceblue;
+    padding: 30px;
+    width: 500px;
+    margin-top: 20px;
+    /* this property will fit box and content according to width   */
+    box-sizing: border-box;
+    /* this property will fit only content according to width   */
+    /* box-sizing: content-box; */
+}
+
