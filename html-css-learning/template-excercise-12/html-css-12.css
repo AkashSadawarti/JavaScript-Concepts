@@ -8,24 +8,28 @@ body{
     margin:0 30px;
 }
 
-nav.nav-menu{
+a{
+    text-decoration: none;
+    color : #444; 
+}
+
+nav {
     background-color: #cdcdcd;
 }
 
-nav ul{
+ul{
+    padding:10px;
     text-align: center;
-    padding: 10px;;
-}
-
-h3{
-    border-bottom: #444;
+    list-style: none;
 }
 
 li{
-    display: inline;
-    padding: 0px 10px;
-    border-bottom: 1px solid #444;  
+    display: inline-block;
+    border-bottom: 1px solid ;
+    margin : 5px 20px;
+    text-transform: uppercase;
 }
+
 /* .nav-menu > p{
     padding-left: 20px;
     display: inline;
