@@ -1,0 +1,27 @@
+/* :first-child sees if there is first  p in  parent class then only apply color. */
+
+p:first-child{
+   color : red;
+}
+
+h1:first-child{
+    color:greenyellow;
+}
+
+
+/* first of type sees first child of parent and apply color */
+p:first-of-type{
+    color:orange;
+}
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* :last-child sees if there is last  p in  parent class then only apply color. */
+h1:last-child{
+    color:grey;
+}
+
+/* last of type sees last child of parent and apply color */
+p:last-of-type{
+    color:brown;
+}
