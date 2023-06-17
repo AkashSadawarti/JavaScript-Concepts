@@ -1,0 +1,18 @@
+/* normal font weight is 400 */
+/* bold font weight is 700 */
+
+/* font weight depends on fonts some supports some not */
+
+p{
+    font-weight: bold ;
+    font-size: 20px;
+    line-height: 30px;  /*space between tow lines*/
+    word-spacing: 20px; /*space between two words */
+    letter-spacing: 2px;  /*space between two letters */
+}
+
+h1{
+    font-weight: 400;
+    font-style: oblique;
+    text-decoration: red underline;
+}
