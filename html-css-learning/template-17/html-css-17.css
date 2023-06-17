@@ -1,0 +1,28 @@
+/* follow in this order strictly otherwise no work : link , visited , hover , active */
+a:link{
+  color:greenyellow;
+}
+
+
+a:visited{
+    color: rgb(255, 0, 200);
+} 
+
+a:hover{
+   color:tomato;
+}
+
+a:active{
+   color:brown;
+}
+
+/* focuses on the form input box;  */
+input:focus{
+    padding: 10px;
+    border : 2px solid orange;
+    outline: none;
+}
+
+input:required{
+    color : red;
+}
