@@ -1,0 +1,54 @@
+body :not(p){
+    color :red;
+}
+
+
+/* below pseudo class hightlight element which is empty element */
+div:empty{
+   background-color : rgb(180, 146, 211);
+    border: 1px solid;
+    height : 100px;
+    width : 100px;
+}
+
+/* root means root element which is html root has more specificity than html tag but we generally used body tag to integrate properties globally. */
+:root{
+  background-color:bisque;
+  color:cadetblue;
+}
+
+/* first letter of every p tag assigned according to property .Note : this property only works with block elements */
+p::first-letter{
+    font-size: 30px;
+    color:black;
+}
+
+
+/* first line of every p tag assigned according to property .Note : this property only works with block elements */
+p::first-line{
+    font-size: 20px;
+    color:black;
+}
+
+/* ::selection element is used when you select or drag any statements it applies according to property  */
+p::selection{
+    background-color: yellow;
+    color:brown;
+}
+
+/* content property is mandatory before and after pseudo elements */
+.pseudo-element::after{
+    content: "Hello";
+    color :blue;
+    border : 1px solid black;
+    
+}
+
+/* before and after cannot used with br ,img, imput tags */
+
+.pseudo-element::before{
+    content: "Good morning";
+    color :blue;
+    border : 1px solid black;
+    display: block ;
+}
