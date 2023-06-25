@@ -1,0 +1,15 @@
+html {
+  font-size: 10px;
+}
+
+/* if we change by default font size of page then it will take according to defined size of parents element   */
+.box1 {
+  font-size: 2rem;
+}
+
+.text-content {
+  font-size: 3rem;
+  border: 1rem solid red;
+  margin: 3rem;
+  padding: 2rem;
+}
