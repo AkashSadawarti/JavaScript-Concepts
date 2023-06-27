@@ -6,7 +6,7 @@ body :not(p){
 /* below pseudo class hightlight element which is empty element */
 div:empty{
    background-color : rgb(180, 146, 211);
-    border: 1px solid;
+    border: 10px solid;
     height : 100px;
     width : 100px;
 }
