@@ -1,15 +1,26 @@
+/* rem unit always check fontsize of root element i.e 16px */
+
 html {
   font-size: 10px;
+  /* Why to use in percent it makes site more responsive so that when the user will set of browser font it will change according to fontsize which has selected And in pixels it will remain as it is. */
+  /* font-size: 62.5%; */
+  /* 16px------100%
+  10px -----?   i.e 10px * 100 / 16px = 62.5% */
 }
 
 /* if we change by default font size of page then it will take according to defined size of parents element   */
 .box1 {
-  font-size: 2rem;  /* 2 * body defined pixel. */
+  font-size: 2rem;  /* 2 * body defined pixel. i.e 20px */
 }
 
 .text-content {
-  font-size:3rem;
-  border: 1rem solid red;
-  margin: 3rem;
-  padding: 2rem;
+  font-size:3rem;   /* 3*10px =  30px*/
+  border: 0.5rem solid red;
+  margin: 3rem; /* 3*10px =  30px margin */
+  padding: 2rem; /* 2*10px =  20px padding*/
+}
+
+.box p{
+  font-size: 2rem;
+  border : 1rem solid black;
 }
