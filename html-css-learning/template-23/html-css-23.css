@@ -4,11 +4,11 @@ html {
 
 /* if we change by default font size of page then it will take according to defined size of parents element   */
 .box1 {
-  font-size: 2rem;
+  font-size: 2rem;  /* 2 * body defined pixel. */
 }
 
 .text-content {
-  font-size: 3rem;
+  font-size:3rem;
   border: 1rem solid red;
   margin: 3rem;
   padding: 2rem;
