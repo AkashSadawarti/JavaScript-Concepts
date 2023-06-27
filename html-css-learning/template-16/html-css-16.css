@@ -6,7 +6,7 @@
 p{
     font-weight: bold ;
     font-size: 20px;
-    line-height: 30px;  /*space between tow lines*/
+    line-height: 30px;  /*space between two lines*/
     word-spacing: 20px; /*space between two words */
     letter-spacing: 2px;  /*space between two letters */
 }
