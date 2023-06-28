@@ -1,0 +1,15 @@
+/* em is completly based on immediate parent of element like for example their are two heading :  h1 which is in body/html it will be taken by h1 element which are in body as well as other classes 
+2) h1 heading in box will be changed according to .box1 if box property is not updated with font-size thw it will act according to body.  */
+
+h1 {
+  /* 2*16px = 32px because parent font size is by default 16px  */
+  font-size: 2em;  
+  border : 3em solid black;  /*h1 is by default 32px so 32*2 = 64pixel*/
+  padding: 2em ;
+  /* 32*2  */
+}
+.box1{
+  font-size: 20px;
+  /* so box1 also has heading in it so and box is parent to h1 . here we set fontsize of box 20px means heading in box1 would take 20px*2 = 40px */
+  /* here border  : 20px*3 + 3*20px = 120px */
+}
