@@ -71,3 +71,9 @@ while( i < Obj8.length){
 console.log(Obj8[i]);
 i++
 }
+
+let array1 = [1,2,3]
+let array2 = [3,4,5]
+
+let res = [...new Set([...array1,...array2])];
+console.log(res);
